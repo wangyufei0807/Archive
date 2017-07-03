@@ -1,14 +1,14 @@
-## 1.使用composer安装dingo/api和tymon/jwt-auth
+### 1.使用composer安装dingo/api和tymon/jwt-auth
 
-    composer require "dingo/api:dev-master" //目前低版本的dingo/api不能支持laravel5.4，使用dev版本的dingo/api
+    composer require "dingo/api:dev-master" 
     composer require "tymon/jwt-authi:dev-master"
 
-## 2.文档：这里将会用dingo api和json web token来开发后台API
+### 2.文档：这里将会用dingo api和json web token来开发后台API
 
     （1）dingo api文档，https://github.com/dingo/api/wiki
     （2）jwt-auth文档，https://github.com/tymondesigns/jwt-auth/wiki
 
-## 3.后端API配置
+### 3.后端API配置
 
 在config/app.php中加入
 
@@ -73,7 +73,7 @@ jwt-auth依赖于user表，也就是database/migrations/2014_10_12_000000_create
     }
 
 
-//文件路径：app/Http/Controllers/Api/TestController.php
+文件路径：app/Http/Controllers/Api/TestController.php
 
     namespace App\Http\Controllers\Api;   
     use App\Http\Controllers\ApiController; //引用自己定义的api公共类

@@ -575,6 +575,7 @@
  	<li><a href="http://laravelacademy.org/post/1203.html">Wardrobe</a> —— 专注于写作的最小化博客平台</li>
  	<li><a href="https://github.com/jcc/blog">PJ Blog</a> —— 基于Laravel和Vue.js构建的开源博客</li>
  	<li><a href="https://github.com/cong5/myPersimmon">MyPersimmon</a> —— 基于Laravel 5.4开发的博客系统</li>
+    <li><a href="https://huanghua581.github.io/FATA/">laravel 详解</a> —— laravel详解</li>
 </ul>
 <h4>其他</h4>
 <ul>
